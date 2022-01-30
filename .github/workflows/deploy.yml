@@ -41,7 +41,7 @@ jobs:
         uses: SamKirkland/FTP-Deploy-Action@4.2.0
         with:
           server: ftp.japebe.de
-          username: myFtpUserName
+          username: u514200084.admin
           password: ${{ secrets.DEPLOY_FTP_PASSWORD }}
           local-dir: out/
           server-dir: public_html/wp-content/themes/twentytwentyone-child/
