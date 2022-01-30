@@ -44,4 +44,4 @@ jobs:
           username: u514200084.admin
           password: ${{ secrets.DEPLOY_FTP_PASSWORD }}
           local-dir: out/
-          server-dir: public_html/wp-content/themes/twentytwentyone-child/
+          server-dir: ~/domains/japebe.de/public_html/wp-content/themes/twentytwentyone-child/
