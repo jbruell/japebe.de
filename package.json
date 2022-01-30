@@ -1,8 +1,15 @@
 {
-  "name": "japebe",
-  "version": "0.0.1",
-  "main": "index.js",
-  "author": "Janik Brüll",
-  "license": "MIT",
-  "private": true
+    "name": "japebe",
+    "version": "0.0.1",
+    "main": "index.js",
+    "author": "Janik Brüll",
+    "license": "MIT",
+    "private": true,
+    "dependencies": {
+        "node-sass": "^7.0.1"
+    },
+    "scripts": {
+        "css": "node-sass src/css/index.scss out/style.css",
+        "watch-css": "yarn css -watch"
+    }
 }
